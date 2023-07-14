@@ -21,7 +21,9 @@ export default function RootLayout({
             <html lang="en">
                 <body className={inter.className}>
                     <NavMenu />
-                    {children}
+                    <div className="flex flex-col w-3/4 mx-auto">
+                        {children}
+                    </div>
                 </body>
             </html>
         </AuthProvider>
